@@ -16,10 +16,13 @@ public class MyActivity extends Activity {
     private Activity thisActivity;
 
     private int speed;
-    private String songName;
-    private int bpm;
+    private Song song;
 
-    
+    private SongProvider songProvider;
+
+    private void chooseSong() {
+        song = songProvider.getSongForSpeed(speed);
+    }
 
     private void refreshText() {
         StringBuilder sb = new StringBuilder();
@@ -36,8 +39,8 @@ public class MyActivity extends Activity {
 
         sb = new StringBuilder();
         sb.append("Ваша скорость: ").append(speed).append(" м/c\n");
-        sb.append("Сейчас играет: ").append(songName).append("\n");
-        sb.append("Темп трека: ").append(bpm).append(" ударов в минуту\n");
+        sb.append("Сейчас играет: ").append(song.getName()).append("\n");
+        sb.append("Темп трека: ").append(song.getBpm()).append(" ударов в минуту\n");
 
         summaryText.setText(sb.toString());
     }
@@ -52,6 +55,15 @@ public class MyActivity extends Activity {
         speedBar = (SeekBar) findViewById(R.id.speedBar);
         headerText = (TextView) findViewById(R.id.headerText);
         summaryText = (TextView) findViewById(R.id.summaryText);
+
+
+
+        songProvider = new BasicSongProvider();
+        ((BasicSongProvider) songProvider).addSong(new Song("Tomoyasu Hotei - Battle Without Honor or Humanity", 95));
+        ((BasicSongProvider) songProvider).addSong(new Song("Klaus Badelt - He's a Pirate", 70));
+        ((BasicSongProvider) songProvider).addSong(new Song("Eminem - Lose yourserlf", 86));
+
+        chooseSong();
 
         refreshText();
 
@@ -69,7 +81,8 @@ public class MyActivity extends Activity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-
+                chooseSong();
+                refreshText();
             }
         });
     }

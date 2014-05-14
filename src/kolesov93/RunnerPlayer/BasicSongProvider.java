@@ -17,7 +17,7 @@ public class BasicSongProvider implements SongProvider {
     public Song getSongForSpeed(int speed) {
         Song bestMatch = null;
 
-        int bestBpm = 60 + (int) ((double) speed * 8);
+        int bestBpm = 60 + (int) ((double) speed * 5);
 
         for (Song song : songList) {
             if (bestMatch == null || Math.abs(bestMatch.getBpm() - bestBpm) > Math.abs(song.getBpm() - bestBpm)) {
