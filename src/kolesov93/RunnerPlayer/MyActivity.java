@@ -15,7 +15,7 @@ public class MyActivity extends Activity {
     private TextView summaryText;
     private Activity thisActivity;
 
-    private int speed;
+    private double speed;
     private Song song;
 
     private SongProvider songProvider;
@@ -27,12 +27,14 @@ public class MyActivity extends Activity {
     private void refreshText() {
         StringBuilder sb = new StringBuilder();
         sb.append("Ваш темп: ");
-        if (speed < 3) {
-            sb.append("прогулочный");
-        } else if (speed > 8) {
-            sb.append("Усейн Болт");
+        if (speed <= 4) {
+            sb.append("прогулка");
+        } else if (speed <= 6) {
+            sb.append("спокойный бег");
+        } else if (speed <= 8) {
+            sb.append("быстрый бег");
         } else {
-            sb.append("пробежка");
+            sb.append("Усейн Болт");
         }
 
         headerText.setText(sb.toString());
@@ -64,13 +66,12 @@ public class MyActivity extends Activity {
         ((BasicSongProvider) songProvider).addSong(new Song("Eminem - Lose yourserlf", 86));
 
         chooseSong();
-
         refreshText();
 
         speedBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int value, boolean b) {
-                speed = value;
+                speed = (double) value / 5;
                 refreshText();
             }
 

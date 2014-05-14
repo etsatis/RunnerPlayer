@@ -14,10 +14,10 @@ public class BasicSongProvider implements SongProvider {
     }
 
     @Override
-    public Song getSongForSpeed(int speed) {
+    public Song getSongForSpeed(double speed) {
         Song bestMatch = null;
 
-        int bestBpm = 60 + (int) ((double) speed * 5);
+        int bestBpm = 60 + (int) (speed * 5);
 
         for (Song song : songList) {
             if (bestMatch == null || Math.abs(bestMatch.getBpm() - bestBpm) > Math.abs(song.getBpm() - bestBpm)) {

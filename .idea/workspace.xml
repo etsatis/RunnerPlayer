@@ -14,6 +14,8 @@
     <list default="true" id="67b94bc9-6809-4e2b-9a4d-deb73d0716ba" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/BasicSongProvider.java" afterPath="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/BasicSongProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java" afterPath="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/SongProvider.java" afterPath="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/SongProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RunnerPlayer.iws" />
@@ -69,23 +71,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/BasicSongProvider.java" line="19" class="kolesov93.RunnerPlayer.BasicSongProvider" package="kolesov93.RunnerPlayer">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -95,13 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="30" selection-start="2550" selection-end="2550" vertical-scroll-proportion="0.70873785" vertical-offset="895" max-vertical-offset="1425">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="28" column="32" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="1440">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,24 +92,16 @@
       <file leaf-file-name="Song.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/Song.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-              </folding>
+            <state line="16" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="525">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SongProvider.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SongProvider.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/SongProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="10" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.29126215" vertical-offset="0" max-vertical-offset="515">
               <folding />
             </state>
           </provider>
@@ -135,7 +110,7 @@
       <file leaf-file-name="BasicSongProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/BasicSongProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="54" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="510">
+            <state line="14" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#BasicSongProvider#0" expanded="false" />
@@ -151,7 +126,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="53" selection-start="716" selection-end="716" vertical-scroll-proportion="-4.0384617" vertical-offset="15" max-vertical-offset="630">
+            <state line="28" column="12" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -170,11 +145,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/SongProvider.java" />
         <option value="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/Song.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/BasicSongProvider.java" />
         <option value="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/kolesov93/RunnerPlayer/SongProvider.java" />
       </list>
     </option>
   </component>
@@ -348,8 +323,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,6 +382,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -432,19 +420,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -562,7 +537,11 @@
       <created>1400089826327</created>
       <updated>1400089826327</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Now it's like, you know, working">
+      <created>1400092211144</created>
+      <updated>1400092211144</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -572,7 +551,6 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293872" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -581,7 +559,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -593,7 +570,9 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293872" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -610,7 +589,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Uploading them all!!!!11&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploading them all!!!!11&#10;" />
+    <MESSAGE value="Now it's like, you know, working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now it's like, you know, working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -622,10 +602,50 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="495">
+        <state line="28" column="32" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/SongProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/BasicSongProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="510">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#BasicSongProvider#0" expanded="false" />
+            <element signature="e#221#227#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="12" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="495">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -642,9 +662,7 @@
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="435">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,9 +679,7 @@
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="480">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -680,9 +696,7 @@
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="435">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,9 +713,7 @@
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="17" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="450">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -718,9 +730,7 @@
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="5" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="495">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -737,9 +747,7 @@
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="7" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="300">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -756,9 +764,7 @@
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -775,9 +781,7 @@
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="29" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="300">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -796,21 +800,28 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="53" selection-start="716" selection-end="716" vertical-scroll-proportion="-4.0384617" vertical-offset="15" max-vertical-offset="630">
+        <state line="28" column="12" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/SongProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/Song.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="16" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="32" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="1440">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/BasicSongProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="54" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="510">
+        <state line="14" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#BasicSongProvider#0" expanded="false" />
@@ -819,27 +830,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/Song.java">
+    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/SongProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kolesov93/RunnerPlayer/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="30" selection-start="2550" selection-end="2550" vertical-scroll-proportion="0.70873785" vertical-offset="895" max-vertical-offset="1425">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="10" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.29126215" vertical-offset="0" max-vertical-offset="515">
+          <folding />
         </state>
       </provider>
     </entry>
